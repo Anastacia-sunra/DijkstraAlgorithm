@@ -28,9 +28,9 @@ public class Main {
     DijkstraGraph dijkstraGraph = new DijkstraGraph(arcs);
 
     /**
-     *  Устанавливается начальная точка маршрута
+     *  Присваивает постоянные метки
      */
-    dijkstraGraph.fixStart(0);
+    dijkstraGraph.setMarks(0);
 
     /**
      *  Находится путь от начальной до установленной конечной точки
